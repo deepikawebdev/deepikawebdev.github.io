@@ -1,0 +1,590 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #ece8d9;
+}
+#navbar{
+    background-color: #f8b500;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    align-content: center;
+}
+.header__logo{
+    position: fixed;
+    top:5%;
+    left:6%;
+}
+
+#container{
+    position: absolute;
+   float: left;
+   top: 0;
+   left: 20%;
+    width: 80%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+#container div{
+    position: relative;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#container div#homePage{
+    background-color:rgba(255,77,77,0.99);
+}
+#container div#aboutMe{
+    background-color: #ece8d9;
+}
+#container div#services{
+    background-color: #00adb5;
+}
+
+#container div#projects{
+    background-color: #ece8d9;
+}
+
+#container div#contactMe{
+    background-color: #393e46;
+}
+
+
+ul.nav{
+    position: fixed;
+       top: 60%;
+       left:5%;
+       transform: translateY(-50%);
+       width: 20%;
+       margin: 0;
+       padding: 0;
+       z-index:1;
+       align-content: center;
+   }
+
+ul.nav li{
+text-decoration: none;
+list-style: none;
+margin: 10px;
+width:100%;
+
+}
+ 
+ul li a{
+   display: block;
+   text-decoration: none;
+   width:140px;
+    list-style: none;
+    margin: 10px;
+    width:100%;
+    
+    }
+
+#container div {
+
+    margin:0;
+    padding: 0;
+}
+h1{
+    color: #ff4d4d;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 0px;
+    padding:10px;
+}
+
+#container div#aboutMe__content{
+
+    left: 10px;
+    margin: 10px;
+    height: 90%;
+    width:95%;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+p{
+    width: 100%;
+}
+#aboutMe__pic{
+    padding: 10px;
+    margin-right: 10px;
+    border-right: 4px solid #ff4d4d;
+    border-bottom: 2px solid #ff4d4d;
+   float: left;
+ 
+}
+h2{
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: #00adb5;
+    top: 0;
+    left: 39%;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 20px;
+    padding:10px;
+   /* width: 90%;*/
+   
+}
+
+#container div.wrapper,
+#container div.skillArea{
+ 
+  width: 100%;
+  
+    top: 0%;
+    left: 10px;
+    
+    margin: 20px;
+
+}
+#container div.skillArea,
+{
+    
+    top: 40%;
+    left: 0;
+    width: 80%;
+    margin-top: 40px;
+    
+}
+
+ul.singleSkill1{
+    position: absolute;
+    font-size: 10px;
+    /* float: left; */
+    display: inline-block;
+    /* top: 100%; */
+    width: 40%;
+    left: 3%;
+    top: 13%;
+   margin: 0;
+   padding: 0;
+    
+}
+ul.singleSkill2{
+    position: absolute;
+    font-size: 10px;
+    /* top: 100%; */
+    top: 13%;
+    left: 59%;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+.singleSkill1 li,
+.singleSkill2 li{
+    margin-bottom: 30px;
+    height: 15px;
+    list-style: none;
+}
+.singleSkill1 li b,
+.singleSkill2 li b{
+    position: relative;
+    top: -25px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.line{
+    position: absolute;
+    background: #ff4d4d;
+    margin: 1px 0;
+    height: 15px;
+}
+.html{
+    width: 100%;
+    -webkit-animation: html 2s ease-out;
+    -o-animation:  html 2s ease-out;
+    -moz-animation: html 2s ease-out;
+    animation:  html 2s ease-out; 
+}
+.cssSass{
+    width: 70%;
+    -webkit-animation: cssSass 2s ease-out;
+    -o-animation:  cssSass 2s ease-out;
+    -moz-animation: cssSass 2s ease-out;
+    animation:  cssSass 2s ease-out; 
+}
+.javascript{
+    width: 80%;
+    -webkit-animation: javascript 2s ease-out;
+    -o-animation:  javascript 2s ease-out;
+    -moz-animation: javascript 2s ease-out;
+    animation:  javascript 2s ease-out; 
+}
+.jquery{
+    width: 50%;
+    -webkit-animation: jquery 2s ease-out;
+    -o-animation:  jquery 2s ease-out;
+    -moz-animation: jquery 2s ease-out;
+    animation:  jquery 2s ease-out; 
+}
+.bootsrap{
+    width: 70%;
+    -webkit-animation: bootsrap 2s ease-out;
+    -o-animation:  bootsrap 2s ease-out;
+    -moz-animation: bootstrap 2s ease-out;
+    animation:  bootsrap 2s ease-out; 
+}
+.angular2{
+    width: 50%;
+    -webkit-animation: angular2 2s ease-out;
+    -o-animation:  angular2 2s ease-out;
+    -moz-animation: angular2 2s ease-out;
+    animation:  angular2 2s ease-out; 
+}
+.react{
+    width: 30%;
+    -webkit-animation: react 2s ease-out;
+    -o-animation:  react 2s ease-out;
+    -moz-animation: react 2s ease-out;
+    animation:  react 2s ease-out; 
+}
+.nodejs{
+    width: 70%;
+    -webkit-animation: nodejs 2s ease-out;
+    -o-animation:  nodejs 2s ease-out;
+    -moz-animation: nodejs 2s ease-out;
+    animation:  nodejs 2s ease-out; 
+}
+.expressjs{
+    width: 70%;
+    -webkit-animation: expressjs 2s ease-out;
+    -o-animation:  expressjs 2s ease-out;
+    -moz-animation: expressjs 2s ease-out;
+    animation:  expressjs 2s ease-out; 
+}
+.php{
+    width: 50%;
+    -webkit-animation: php 2s ease-out;
+    -o-animation:  php 2s ease-out;
+    -moz-animation: php 2s ease-out;
+    animation:  php 2s ease-out; 
+}
+.mysql{
+    width: 50%;
+    -webkit-animation: mysql 2s ease-out;
+    -o-animation:  mysql 2s ease-out;
+    -moz-animation: mysql 2s ease-out;
+    animation:  mysql 2s ease-out; 
+}
+.mangodb{
+    width: 70%;
+    -webkit-animation: mangodb 2s ease-out;
+    -o-animation:  mangodb 2s ease-out;
+    -moz-animation: mangodb 2s ease-out;
+    animation:  mangodb 2s ease-out; 
+}
+.ccpp{
+    width: 50%;
+    -webkit-animation: ccpp 2s ease-out;
+    -o-animation:  ccpp 2s ease-out;
+    -moz-animation: ccpp 2s ease-out;
+    animation:  ccpp 2s ease-out; 
+}
+.javaj2ee{
+    width: 50%;
+    -webkit-animation: javaj2ee 2s ease-out;
+    -o-animation:  javaj2ee 2s ease-out;
+    -moz-animation: javaj2ee 2s ease-out;
+    animation:  javaj2ee 2s ease-out; 
+}
+.csdotnet{
+    width: 30%;
+    -webkit-animation: csdotnet 2s ease-out;
+    -o-animation:  csdotnet 2s ease-out;
+    -moz-animation: csdotnet 2s ease-out;
+    animation:  csdotnet 2s ease-out; 
+}
+@keyframes html{
+0%{
+    width: 0;
+}
+100%{
+    width: 100%;
+}
+}
+@keyframes cssSass{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%:
+    }
+    }
+@keyframes javascript{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 80%:
+        }
+        }
+@keyframes jquery{
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 50%:
+            }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%:
+    }
+    }
+@keyframes angular2{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 50%:
+        }
+}
+@keyframes react{
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 30%:
+            }
+}
+@keyframes nodejs{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%:
+    }
+}
+@keyframes expressjs{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%:
+    }
+}
+@keyframes php{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%:
+    }
+}
+@keyframes mysql{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%:
+    }
+}
+@keyframes mangodb{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%:
+    }
+}
+@keyframes ccpp{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%:
+    }
+}
+@keyframes javaj2ee{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%:
+    }
+}
+@keyframes csdotnet{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%:
+    }
+}
+
+.btn:link, .btn:visited {
+    font-weight: 400;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    /*text-align: center;
+          /*width: 300px;
+          height:50px;*/
+    border-radius: 10rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.5rem 3rem; }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); }
+  
+  .btn::after {
+    content: "";
+    display: inline-block;
+    /* because the button is inline block */
+    position: absolute;
+    /* relative to the button */
+    top: 0;
+    /* absolute positioning to make it go behind the button */
+    left: 0;
+    border-radius: 10rem;
+    /* same as button */
+    width: 100%;
+    /* to be same as the width and  height of button we give 100% */
+    height: 100%;
+    z-index: -1;
+    /* to hide it behind the button */
+    transition: all .4s; }
+  
+  .btn:hover::after {
+    transform: scale(1.4);
+    /* element to grow */
+    opacity: 0;
+    /* element to fade out */ }
+  
+  .btn--red {
+    border: none;
+    font-size: 2.4rem;
+    background-color: /*#ff4d4d*/#f8b500;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+    .btn--red::after {
+      background-color: #ff4d4d; }
+  
+  .btn--animation {
+    animation: buttonFromBottom 3s ease-out .75s;
+    animation-fill-mode: backwards; }
+  
+  .btn--white {
+    background-color: #fff;
+    color: #777;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2); }
+    .btn--white::after {
+      background-color: #fff; }
+
+
+.header {
+    height: 95vh;
+    position: relative;
+    background-image: linear-gradient(#ece8d9,#f8b500, #ff4d4d), url(../img/backgroundImage.jpg);
+    
+    background-position: top;
+    background-size: cover;
+    backface-visibility: hidden;
+    transition: all .2s; }
+    .header:hover {
+      background-image: linear-gradient(rgba(236,232,217,0.85), rgba(248,181,0, 0.85),rgba(255,77,77,0.85)) /*linear-gradient(rgba(102, 255, 255, 0.85), rgba(0, 51, 204, 0.85))*/, url(../img/backgroundImage.jpg); }
+    
+    .header__heading {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 5%;
+      left: 70%;
+      transform: translate(-80%, -10%);
+      text-align: center;
+      margin-bottom: 6rem; }
+.heading--hey {
+    position: absolute;
+      top: 10%;
+      left: 87%;
+    display: block;
+    font-size: 7rem;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    /*color: #ff4d4d;*/
+    color: #fff;
+    animation-name: heyAndSubHeadingToRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-out; }
+    .heading-primary--mainHeading {
+        position: absolute;
+        top: 33%;
+        left: 63%;
+        color: #ff4d4d;
+        font-family: 'Monoton', cursive;
+        font-size: 7.6rem;
+        font-weight: 400;
+        text-align: right;
+        animation: mainHeadingToLeft 3s ease-out; }
+  
+.heading-primary--subHeading {
+    position: absolute;
+    top: 65%;
+    left: 77%;
+        /*color: #4d4d4d;*/
+        color: #fff;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: right;
+        letter-spacing: 1rem;
+        animation-name: heyAndSubHeadingToRight;
+        animation-duration: 3s;
+        animation-timing-function: ease-out; }
+.heading-secondary {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: .3rem;
+            display: inline-block;
+            color: transparent;
+            background-image: linear-gradient(to right, #66FFFF, #0033CC);
+            -webkit-background-clip: text;
+            background-clip: text; }
+            .heading-secondary:hover {
+                transform: skewY(5deg) skewX(20deg) scale(1.1);
+                text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+@keyframes heyAndSubHeadingToRight {
+                    0% {
+                      transform: translateX(-10rem);
+                      opacity: 0; }
+                    80% {
+                      transform: translateX(1rem); }
+                    100% {
+                      transform: translate(0);
+                      opacity: 1; } }
+                  
+@keyframes mainHeadingToLeft {
+                    0% {
+                      transform: translateX(10rem);
+                      opacity: 0; }
+                    80% {
+                      transform: translateX(-1rem); }
+                    100% {
+                      transform: translate(0);
+                      opacity: 1; } }
+                  
+                     
